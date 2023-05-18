@@ -1,0 +1,32 @@
+/* Estilos CSS para el banner */
+.banner {
+  background-color: #006889;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.banner p {
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.banner button {
+  background-color: #ffffff;
+  color: #006889;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.banner button:hover {
+  background-color: #00556b;
+  color: #ffffff;
+}

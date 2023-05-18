@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navegacion">
+        <nav class="navbar">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="imagenes/logo.png" alt="Benotto"
+            /></a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="paginas/somos.html">Quienes somos</a></li>
+            <li><a href="paginas/catalogo.html">Catálogo</a></li>
+            <li><a href="paginas/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="cuerpo">
+        <h1>Historia</h1>
+        <div class="informacion">
+          <img src="imagenes/historia2.jpg" alt="benotto" class="img-left" />
+          <p>
+            <strong>Benotto</strong> es una reconocida empresa mexicana dedicada
+            a la fabricación de bicicletas <strong>desde 1937.</strong> Su
+            historia está llena de éxito y pasión por el ciclismo. Fundada por
+            Giacinto Benotto en Italia, la empresa se trasladó a
+            <strong>México en 1948</strong>, donde encontró un terreno fértil
+            para crecer.
+          </p>
+          <img src="imagenes/historia1.jpg" alt="benotto" class="img-right" />
+
+          <p>
+            A lo largo de los años, Benotto ha sido pionera en el desarrollo de
+            tecnologías innovadoras y diseños vanguardistas en la industria de
+            las bicicletas. Sus productos han sido utilizados por ciclistas
+            profesionales en competencias de renombre internacional.
+          </p>
+          <p>
+            Benotto ha logrado mantenerse como una marca líder en el mercado
+            mexicano, con una amplia gama de bicicletas para todas las edades y
+            estilos de conducción. Su compromiso con la calidad, la durabilidad
+            y la satisfacción del cliente ha sido clave en su éxito continuo.
+          </p>
+
+          <p>
+            Además de su presencia en México, Benotto ha expandido su alcance a
+            nivel internacional, exportando sus productos a diferentes países.
+            Su nombre se ha convertido en sinónimo de excelencia en el mundo de
+            las bicicletas.
+          </p>
+          <p>
+            La historia de Benotto es una historia de
+            <strong><i>pasión por el ciclismo</i></strong
+            >, de innovación constante y de un compromiso inquebrantable con la
+            calidad. A través de los años, ha dejado una huella indeleble en la
+            industria de las bicicletas, inspirando a ciclistas de todas las
+            edades a disfrutar de la emoción y la libertad que ofrece este
+            deporte.
+          </p>
+        </div>
+
+        <div id="slider">
+          <div class="slide">
+            <img src="imagenes/slide1.jpg" alt="Imagen 1" />
+          </div>
+          <div class="slide">
+            <img src="imagenes/slide2.jpeg" alt="Imagen 2" />
+          </div>
+          <div class="slide">
+            <img src="imagenes/slide3.webp" alt="Imagen 3" />
+          </div>
+          <div class="slide">
+            <img src="imagenes/slide4.jpeg" alt="Imagen 3" />
+          </div>
+          <div class="slide">
+            <img src="imagenes/slide5.webp" alt="Imagen 3" />
+          </div>
+
+          <a class="prev" onclick="prevSlide()">&#10094;</a>
+          <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+      </div>
+      <footer class="footer">
+        <p>
+          &copy; 2023 Garcilazo Estrella Victor. <br />
+          Todos los derechos reservados.
+        </p>
+      </footer>
+    </div>
+
+    <script src="js/slider.js"></script>
+  </body>
+</html>

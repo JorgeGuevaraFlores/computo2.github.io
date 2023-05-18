@@ -1,0 +1,61 @@
+/* Estilos CSS para el formulario */
+.contacto {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contacto h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 23px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.submit-button {
+  margin: 0 auto;
+  display: block;
+  background-color: #006889;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.submit-button:hover {
+  background-color: #00576b;
+}
